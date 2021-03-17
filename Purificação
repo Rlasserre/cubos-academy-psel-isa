@@ -1,0 +1,6 @@
+function solucao(stringCorrompida) {
+	
+       
+              
+        const purificado =  stringCorrompida.normalize('NFD').replace(/([\u0300-\u036f]|[^0-9a-zA-Z\s])/g, "");
+        console.log ( purificado);
