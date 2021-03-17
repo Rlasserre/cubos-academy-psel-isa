@@ -1,0 +1,4 @@
+function solucao(n) {
+  const enesimoPar = 2 *n;
+    console.log( enesimoPar);
+}
