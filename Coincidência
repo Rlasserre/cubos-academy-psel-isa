@@ -1,0 +1,16 @@
+function solucao(jogadas) {
+  
+   var soma = jogadas.reduce(function (acumulador, valorAtual){
+                             return acumulador + valorAtual;
+                             }, 0);
+        
+        const media = soma / jogadas.length;
+       
+        if ( media === 0.5){
+            console.log("true");
+        }else {
+            console.log("false");
+        }
+    
+   
+}
