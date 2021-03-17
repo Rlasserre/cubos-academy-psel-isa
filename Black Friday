@@ -1,0 +1,6 @@
+function solucao(produtos, valorMaximo, avaliacaoMinima) {
+
+    
+          const produtoSelecionado = produtos.filter((selecao, index, array) =>  selecao.valor <= valorMaximo && selecao.avaliacao >= avaliacaoMinima);
+    
+    console.log(produtoSelecionado); 
