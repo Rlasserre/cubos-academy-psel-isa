@@ -1,0 +1,6 @@
+function solucao(velocidade, aceleracao) {
+	
+    const distancia = -1 * (velocidade * velocidade) / (2 * aceleracao);
+    console.log(distancia);
+  
+}
